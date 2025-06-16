@@ -1,13 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { Hero } from '../components/Hero';
+import { ScrollingBanner } from '../components/ScrollingBanner';
+import { ExperienceSection } from '../components/ExperienceSection';
+import { ClientTestimonials } from '../components/ClientTestimonials';
+import { ServicesSection } from '../components/ServicesSection';
+import { FAQSection } from '../components/FAQSection';
+import { ContactSection } from '../components/ContactSection';
 
-const Index = () => {
+const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <main className="w-full relative overflow-x-hidden bg-white">
+      <div className="bg-[#57524F]">
+        <Hero />
+        <ScrollingBanner />
+        <ExperienceSection />
+        <ClientTestimonials />
+        <ServicesSection />
+        <FAQSection />
+        <ContactSection />
       </div>
-    </div>
+    </main>
   );
 };
 
