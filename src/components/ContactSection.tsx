@@ -1,79 +1,37 @@
-
 import React from 'react';
+
+const ShieldIcon = () => (
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+    <path d="M12 2L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 2ZM12 11.99H19C18.47 16.11 15.72 19.78 12 20.92V12H5V6.3L12 4.15V11.99Z" fill="#4A44F2"/>
+  </svg>
+);
 
 export const ContactSection: React.FC = () => {
   return (
-    <section className="relative pt-[200px] pb-[100px] px-[499px] max-md:pt-[100px] max-md:pb-[50px] max-md:px-[50px] max-sm:pt-[60px] max-sm:pb-10 max-sm:px-5">
-      <h2 className="text-[#F3ECEC] text-[53px] font-bold uppercase mb-[100px] max-sm:text-4xl">
-        запланировать диагностику
-      </h2>
-      
-      <div className="relative">
-        <div className="w-[794px] h-[515px] max-md:w-full max-md:max-w-[600px] max-md:h-auto bg-[#F3ECEC] rounded-[20px] p-10">
-          <div className="mb-8">
-            <h3 className="text-[#333] text-2xl font-bold mb-4">Select a Date & Time</h3>
-            <div className="text-[#333] text-lg font-semibold mb-6">AUGUST</div>
-            
-            <div className="bg-white rounded-lg p-6 shadow-md mb-6">
-              <div className="grid grid-cols-7 gap-2 text-center">
-                <div className="font-semibold text-gray-600">Пн</div>
-                <div className="font-semibold text-gray-600">Вт</div>
-                <div className="font-semibold text-gray-600">Ср</div>
-                <div className="font-semibold text-gray-600">Чт</div>
-                <div className="font-semibold text-gray-600">Пт</div>
-                <div className="font-semibold text-gray-600">Сб</div>
-                <div className="font-semibold text-gray-600">Вс</div>
-                
-                <div className="py-2"></div>
-                <div className="py-2"></div>
-                <div className="py-2"></div>
-                <div className="py-2 text-gray-400">1</div>
-                <div className="py-2 text-gray-400">2</div>
-                <div className="py-2 text-gray-400">3</div>
-                <div className="py-2 text-gray-400">4</div>
-                
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">5</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">6</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">7</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">8</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">9</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">10</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">11</div>
-                
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">12</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">13</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">14</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded bg-blue-500 text-white">15</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">16</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">17</div>
-                <div className="py-2 cursor-pointer hover:bg-blue-100 rounded">18</div>
-              </div>
-            </div>
-          </div>
+    <section id="schedule" className="w-full bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
+      <div className="max-w-3xl mx-auto text-center">
+        <h2 className="text-4xl font-bold mb-8 uppercase">
+          Хватит тушить пожары. Приходите фиксить причину.
+        </h2>
+        <div className="bg-[#1E1E1E] p-8 rounded-lg">
+          <p className="text-lg text-gray-300 mb-6 max-w-2xl mx-auto">
+            Запишись на 2-часовую диагностическую сессию. Мы разберем твой главный затык, и я покажу тебе 2-3 неочевидные точки роста. Ты получишь ясность и пошаговый план, даже если мы не пойдем работать дальше.
+          </p>
           
-          <div className="border-t pt-6">
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-[#333] font-semibold">Денис Дворянкин</span>
-              <span className="text-[#666]">→</span>
-            </div>
-            
-            <div className="mb-4">
-              <div className="text-[#333] font-semibold mb-2">Диагностическая сессия</div>
-              <div className="text-[#666] text-sm mb-2">90 min</div>
-              <div className="text-[#666] text-sm">Zoom</div>
-            </div>
-            
-            <div className="text-[#333] text-sm leading-relaxed">
-              2 часа. Без булшита. Найдем корневую проблему вашего бизнеса. 
-              50 000 руб. Если не увидите ценности – верну деньги.
-            </div>
+          <div className="my-8">
+            <span className="text-5xl font-bold text-[#4A44F2]">50 000 ₽</span>
           </div>
-        </div>
-        
-        <div className="absolute left-[821px] top-[734px] transform rotate-[-44.918deg]">
-          <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[36px] h-[44px] fill-white">
-            <path d="M0.523014 0.25966C0.00659988 0.774598 5.91662 22.7965 8.93619 33.7431C11.2103 30.171 15.9393 22.8467 16.6623 22.1257C17.3853 21.4048 26.1717 31.0925 28.7935 34.2918C31.0836 33.0452 35.1196 27.9838 35.1196 27.9838C35.1196 27.9838 27.3764 19.5298 22.9883 15.8178L34.7568 7.99622C23.5607 5.20281 1.03943 -0.255276 0.523014 0.25966Z" fill="white" />
-          </svg>
+
+          <div className="flex justify-center items-center text-left bg-black/50 p-4 rounded-lg mb-8 max-w-lg mx-auto">
+            <ShieldIcon />
+            <p className="text-gray-300 ml-4">
+              Если по итогам сессии ты решишь, что это было бесполезно – я верну деньги. Без вопросов.
+            </p>
+          </div>
+
+          <div className="bg-gray-900 h-96 rounded-lg flex items-center justify-center">
+            <p className="text-gray-500">[ Placeholder for Calendly Widget ]</p>
+          </div>
         </div>
       </div>
     </section>
