@@ -1,52 +1,64 @@
+
 import React from 'react';
-import { TestimonialCard } from './ui/testimonial-card';
+
+interface EnemyCardProps {
+  title: string;
+  description: string;
+  enemyNumber: string;
+}
+
+const EnemyCard: React.FC<EnemyCardProps> = ({ title, description, enemyNumber }) => {
+  return (
+    <article className="w-[471px] h-[450px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),15px_16px_24.1px_0px_rgba(0,0,0,0.25)_inset] box-border relative bg-[rgba(87,82,79,0.69)] p-[30px] rounded-[20px] max-md:w-full max-md:max-w-[500px] max-md:mx-auto max-md:my-0">
+      <div className="text-[#0E19C2] text-[22px] font-bold w-[111px] h-[31px] bg-[#F3ECEC] mb-[20px] rounded-[10px] flex items-center justify-center">
+        {enemyNumber}
+      </div>
+      
+      <h3 className="text-[#F3ECEC] text-[32px] font-bold mb-[20px] max-sm:text-[28px]">
+        {title}
+      </h3>
+      
+      <p className="text-[#F3ECEC] text-[17px] font-normal leading-[24px]">
+        {description}
+      </p>
+    </article>
+  );
+};
 
 export const ClientTestimonials: React.FC = () => {
-  const testimonials = [
+  const enemies = [
     {
-      name: "Елена Логачева",
-      title: "Экс преподаватель IT MBA в ВШЭ Ментор руководителей",
-      image: "/api/placeholder/246/246",
-      pointA: "Не было новых клиентов, слабая активность в телеграмм-канале, много приходилось исправлять за командой и было непонятно, куда двигаться дальше",
-      pointB: "За 4 месяца работы со мной нашла новый смысл в бизнесе, сформулировала маркетинговую стратегию, наняла эффективную команду и вышла на прибыль >1млн руб",
-      link: "t.me/logachevaEQ"
+      enemyNumber: "Враг #1",
+      title: "Операционный Рак",
+      description: "Хаос, который незаметно пускает метастазы по компании. Сжирает ресурсы, демотивирует команду и тормозит рост. Вы лечите симптомы, а опухоль растет."
     },
     {
-      name: "Кирилл Самородов",
-      title: "Основатель AI стартапа",
-      image: "/api/placeholder/246/246",
-      pointA: "Не было новых клиентов, слабая активность в телеграмм-канале, много приходилось исправлять за командой и было непонятно, куда двигаться дальше",
-      pointB: "За 4 месяца работы со мной нашла новый смысл в бизнесе, сформулировала маркетинговую стратегию, наняла эффективную команду и вышла на прибыль >1млн руб",
-      link: "artific.me"
+      enemyNumber: "Враг #2", 
+      title: "Налог на Фаундера",
+      description: "Ситуация, когда каждое решение проходит через тебя. Твой бизнес не может расти быстрее, чем ты отвечаешь в телеграме. Твой отпуск – катастрофа для компании."
+    },
+    {
+      enemyNumber: "Враг #3",
+      title: "Имитация Роста", 
+      description: "Красивые дашборды, суета в чатах, постоянные созвоны. Все заняты, но деньги в кассе не растут. Это ИБД (имитация бурной деятельности), которая сжигает твой ФОТ и веру в команду."
     }
   ];
 
   return (
     <section className="relative pt-[200px] pb-0 px-[499px] max-md:pt-[100px] max-md:pb-0 max-md:px-[50px] max-sm:pt-[60px] max-sm:pb-0 max-sm:px-5">
-      <h2 className="text-[#F3ECEC] text-[53px] font-bold uppercase mb-10 max-sm:text-4xl">
-        бизнесы, которые выросли со мной
+      <h2 className="text-[#F3ECEC] text-[53px] font-bold uppercase mb-20 max-sm:text-4xl">
+        С чем мы боремся на самом деле
       </h2>
-      
-      <div className="w-[567px] h-16 bg-[#0E19C2] mb-20 rounded-[10px]" />
 
-      <div className="flex gap-[50px] mb-[100px] max-md:flex-col max-md:gap-10">
-        {testimonials.map((testimonial, index) => (
-          <TestimonialCard
+      <div className="flex gap-[50px] flex-wrap justify-center max-md:flex-col max-md:gap-10">
+        {enemies.map((enemy, index) => (
+          <EnemyCard
             key={index}
-            name={testimonial.name}
-            title={testimonial.title}
-            image={testimonial.image}
-            pointA={testimonial.pointA}
-            pointB={testimonial.pointB}
-            link={testimonial.link}
+            enemyNumber={enemy.enemyNumber}
+            title={enemy.title}
+            description={enemy.description}
           />
         ))}
-        
-        <div className="w-[471px] h-[863px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),15px_16px_24.1px_0px_rgba(0,0,0,0.25)_inset] bg-[rgba(87,82,79,0.69)] rounded-[20px]" />
-      </div>
-
-      <div className="text-[#F3ECEC] text-3xl font-bold uppercase text-center w-[728px] h-[345px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),20px_24px_25.2px_0px_rgba(0,0,0,0.25)_inset] mt-[-500px] relative z-[3] bg-[#0E19C2] ml-auto rounded-[20px] max-md:w-full max-md:max-w-[600px] max-md:mt-10 max-md:mb-0 max-md:mx-auto flex items-center justify-center">
-        сюда надо что-то добавить
       </div>
     </section>
   );

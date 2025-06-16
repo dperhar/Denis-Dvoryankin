@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 export const ServicesSection: React.FC = () => {
@@ -6,7 +7,7 @@ export const ServicesSection: React.FC = () => {
       <div className="flex-1 max-w-[552px]">
         <div className="relative mb-[50px]">
           <h2 className="text-[#F3ECEC] text-[53px] font-bold uppercase max-sm:text-4xl">
-            почему меня выбирают
+            почему я, а не очередной консультант
           </h2>
           <div className="w-[507px] h-[66px] absolute bg-[#0E19C2] rounded-[10px] left-0 -bottom-5" />
         </div>
@@ -28,10 +29,10 @@ export const ServicesSection: React.FC = () => {
             </div>
             <div>
               <h3 className="text-[#F3ECEC] text-[30px] font-normal leading-[36px] mb-[36px]">
-                Экспертиза
+                Хирургическая точность
               </h3>
               <p className="text-[#F3ECEC] text-[30px] font-normal leading-[36px]">
-                в исследовани��х, касдевах и продажах
+                Вижу корневую проблему, а не симптомы. Отличаю реальную боль от фантомных болей роста.
               </p>
             </div>
           </div>
@@ -46,10 +47,10 @@ export const ServicesSection: React.FC = () => {
             </div>
             <div>
               <h3 className="text-[#F3ECEC] text-[30px] font-normal leading-[36px] mb-[36px]">
-                Навыки создания
+                Опыт из окопов
               </h3>
               <p className="text-[#F3ECEC] text-[30px] font-normal leading-[36px]">
-                продуктов, управления командой
+                Я сам строил отделы, продавал, отвечал за P&L. Мои советы – не из книжек, а из реальных шрамов.
               </p>
             </div>
           </div>
@@ -64,10 +65,10 @@ export const ServicesSection: React.FC = () => {
             </div>
             <div>
               <h3 className="text-[#F3ECEC] text-[30px] font-normal leading-[36px] mb-[36px]">
-                Знания как выйти из апатии
+                Психология и AI
               </h3>
               <p className="text-[#F3ECEC] text-[30px] font-normal leading-[36px]">
-                и разогнаться, 500+ часов личной практики
+                Понимаю, как работает голова фаундера и как заставить AI работать на бизнес. Внедряю то, что реально приживется.
               </p>
             </div>
           </div>
@@ -76,7 +77,7 @@ export const ServicesSection: React.FC = () => {
 
       <div className="flex-1 max-w-[1194px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),36px_30px_29.8px_0px_rgba(0,0,0,0.25)_inset] box-border bg-[#0E19C2] p-[50px] rounded-[20px] max-md:max-w-full">
         <h2 className="text-[#F3ECEC] text-[53px] font-bold uppercase mb-20 max-sm:text-4xl">
-          C какими запросами я работаю
+          С какими запросами я работаю
         </h2>
 
         <div className="flex flex-col gap-[60px]">
@@ -87,7 +88,7 @@ export const ServicesSection: React.FC = () => {
               </svg>
             </div>
             <p className="text-[#F3ECEC] text-3xl font-normal flex-1 max-sm:text-2xl">
-              Неясно что делать дальше, где найти больше денег
+              Построим систему, которая генерирует деньги, а не хаос.
             </p>
           </div>
 
@@ -98,7 +99,7 @@ export const ServicesSection: React.FC = () => {
               </svg>
             </div>
             <p className="text-[#F3ECEC] text-3xl font-normal flex-1 max-sm:text-2xl">
-              Из тысячи идей выбрать ту, где деньги в кайф
+              Найдем ту самую точку роста, где минимальные усилия дают максимальный ROI.
             </p>
           </div>
 
@@ -109,7 +110,7 @@ export const ServicesSection: React.FC = () => {
               </svg>
             </div>
             <p className="text-[#F3ECEC] text-3xl font-normal flex-1 max-sm:text-2xl">
-              Поставить выполнимые задачи, трансормировать мечту в цель с метриками и сроками
+              Превратим твою интуицию в четкий план с цифрами и сроками.
             </p>
           </div>
 
@@ -120,7 +121,7 @@ export const ServicesSection: React.FC = () => {
               </svg>
             </div>
             <p className="text-[#F3ECEC] text-3xl font-normal flex-1 max-sm:text-2xl">
-              Cобрать команду профи, создать процессы, научиться делигировать и получить результат
+              Сделаем из твоей команды автономный спецназ, а не кружок по интересам.
             </p>
           </div>
 
@@ -131,7 +132,7 @@ export const ServicesSection: React.FC = () => {
               </svg>
             </div>
             <p className="text-[#F3ECEC] text-3xl font-normal flex-1 max-sm:text-2xl">
-              Вновь обрести энергию, запал и вдохновение на реализацию своей мечты в срок
+              Вернем тебе время и энергию, чтобы ты снова кайфовал от своего бизнеса, а не был его рабом.
             </p>
           </div>
         </div>
