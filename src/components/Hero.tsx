@@ -35,10 +35,10 @@ export const Hero: React.FC = () => {
               Когда рост уперся в хаос
             </h1>
             <p className="text-lg lg:text-xl text-gray-300 max-w-xl">
-              Системная реанимация для B2B-бизнеса, который перерос своего основателя.
+              Для фаундеров, которые готовы превратить операционку из тормоза в главный двигатель бизнеса.
             </p>
             <a href="#schedule" className="bg-[#4A44F2] text-white font-bold py-3 lg:py-4 px-6 lg:px-8 rounded-lg text-lg lg:text-xl uppercase hover:bg-blue-800 transition-colors mt-2 lg:mt-4">
-              Узнать диагноз
+              Найти рычаг роста
             </a>
           </div>
           <div className="flex justify-center lg:justify-end order-1 lg:order-2">

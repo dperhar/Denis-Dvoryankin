@@ -28,22 +28,22 @@ export const ServicesSection: React.FC = () => {
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
-              <span><strong>Хирургическая точность:</strong> Вижу корневую проблему, а не симптомы. Отличаю реальную боль от фантомных болей роста.</span>
+              <span><strong>360° Диагностика:</strong> Я был сейлзом, продактом и CS. В топ банках страны, международных стартапах и среднем бизнесе, лидирующем в своем сегменте. Я видел бизнес со всех сторон и быстро нахожу корневую проблему, а не лечу симптомы, которые вам и так очевидны.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
-              <span><strong>Опыт из окопов:</strong> Я сам строил отделы, продавал, отвечал за P&L. В топ банках, в международных стартапах и в среднем бизнесе, лидирующем в своей нише. Мои советы – не из книжек, а из реальных шрамов.</span>
+              <span><strong>Опыт из окопов:</strong> Мои решения – не из курсов скиллбокс. Они основаны на шрамах, полученных в реальных компаниях, где я отвечал за P&L многомиллионных проектов.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
-              <span><strong>Психология и AI:</strong> Понимаю, как работает голова фаундера и как заставить AI работать на бизнес. Внедряю то, что реально приживется.</span>
+              <span><strong>Архитектура и AI:</strong> Я не просто говорю "что делать". Я проектирую операционную систему и помогаю внедрить AI-инструменты, которые реально приносят деньги.</span>
             </li>
           </ul>
         </div>
 
         {/* Right Column */}
         <div className="bg-[#4A44F2] p-8 rounded-2xl h-full text-left">
-          <h2 className="text-4xl font-bold mb-8 uppercase">С какими запросами я работаю</h2>
+          <h2 className="text-4xl font-bold mb-8 uppercase">Что мы сделаем вместе</h2>
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
@@ -51,15 +51,15 @@ export const ServicesSection: React.FC = () => {
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Найдем ту самую точку роста, где минимальные усилия дают максимальный ROI.</span>
+              <span>Найдем тот самый рычаг, где 1 рубль усилий дает 10 рублей результата.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Превратим твою интуицию в четкий план с цифрами и сроками.</span>
+              <span>Превратим твою интуицию в четкий план с цифрами и ответственными.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Сделаем из твоей команды автономный спецназ, а не кружок по интересам.</span>
+              <span>Соберем из твоей команды автономный спецназ, а не кружок по интересам.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
