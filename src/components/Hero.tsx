@@ -11,7 +11,8 @@ export const Hero: React.FC = () => {
               <img 
                 src="/lovable-uploads/1fafdfff-e5a9-4eec-8d26-d69e1b5c572b.png" 
                 alt="Telegram" 
-                className="w-6 h-6 hover:opacity-80 transition-opacity" 
+                className="hover:opacity-80 transition-opacity" 
+                style={{ width: '44.69px', height: '44.69px' }}
                 loading="lazy"
               />
             </a>
@@ -19,7 +20,8 @@ export const Hero: React.FC = () => {
               <img 
                 src="/lovable-uploads/cd2e400b-10af-440e-9c60-41d90ff37414.png" 
                 alt="LinkedIn" 
-                className="w-[30px] h-6 hover:opacity-80 transition-opacity" 
+                className="hover:opacity-80 transition-opacity" 
+                style={{ width: '89.37px', height: '89.37px' }}
                 loading="lazy"
               />
             </a>
