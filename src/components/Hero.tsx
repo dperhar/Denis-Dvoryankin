@@ -1,4 +1,5 @@
 import React from 'react';
+import { Send, Linkedin } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -8,21 +9,15 @@ export const Hero: React.FC = () => {
           <div className="text-xl font-bold">Денис Дворянкин</div>
           <div className="flex items-center space-x-6">
             <a href="https://t.me/deperhar" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-              <img 
-                src="/lovable-uploads/1fafdfff-e5a9-4eec-8d26-d69e1b5c572b.png" 
-                alt="Telegram" 
-                className="hover:opacity-80 transition-opacity" 
-                style={{ width: '44.69px', height: '44.69px' }}
-                loading="lazy"
+              <Send 
+                size={24} 
+                className="text-white hover:text-blue-400 transition-colors" 
               />
             </a>
             <a href="https://linkedin.com/in/dperhar-discovery/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <img 
-                src="/lovable-uploads/cd2e400b-10af-440e-9c60-41d90ff37414.png" 
-                alt="LinkedIn" 
-                className="hover:opacity-80 transition-opacity" 
-                style={{ width: '89.37px', height: '89.37px' }}
-                loading="lazy"
+              <Linkedin 
+                size={24} 
+                className="text-white hover:text-blue-400 transition-colors" 
               />
             </a>
           </div>
