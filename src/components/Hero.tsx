@@ -19,7 +19,7 @@ export const Hero: React.FC = () => {
               <img 
                 src="/lovable-uploads/cd2e400b-10af-440e-9c60-41d90ff37414.png" 
                 alt="LinkedIn" 
-                className="w-[12px] h-6 hover:opacity-80 transition-opacity" 
+                className="w-[30px] h-6 hover:opacity-80 transition-opacity" 
                 loading="lazy"
               />
             </a>
