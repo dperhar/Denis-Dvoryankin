@@ -29,8 +29,18 @@ export const ContactSection: React.FC = () => {
             </p>
           </div>
 
-          <div className="bg-gray-900 h-96 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">[ Placeholder for Calendly Widget ]</p>
+          <div className="flex flex-col items-center">
+            <a 
+              href="https://t.me/deperhar" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-[#4A44F2] text-white font-bold py-4 px-8 rounded-lg text-xl uppercase hover:bg-blue-800 transition-colors mb-4"
+            >
+              Задай вопрос в ТГ
+            </a>
+            <p className="text-gray-400 text-sm">
+              Напиши, что за бизнес, и основную проблему в 3-5 словах
+            </p>
           </div>
         </div>
       </div>
