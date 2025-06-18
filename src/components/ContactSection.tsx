@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Send, Linkedin } from 'lucide-react';
 
@@ -55,7 +56,7 @@ export const ContactSection: React.FC = () => {
             className="text-gray-400 hover:text-white transition-colors"
             aria-label="Telegram"
           >
-            <Send size={24} />
+            <Send size={28} />
           </a>
           <a 
             href="https://linkedin.com/in/dperhar-discovery/" 
@@ -64,7 +65,7 @@ export const ContactSection: React.FC = () => {
             className="text-gray-400 hover:text-white transition-colors"
             aria-label="LinkedIn"
           >
-            <Linkedin size={24} />
+            <Linkedin size={28} />
           </a>
         </div>
       </div>
