@@ -1,5 +1,4 @@
 import React from 'react';
-import { Send, Linkedin } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -9,15 +8,21 @@ export const Hero: React.FC = () => {
           <div className="text-xl font-bold">Денис Дворянкин</div>
           <div className="flex items-center space-x-6">
             <a href="https://t.me/deperhar" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-              <Send 
-                size={24} 
-                className="text-white hover:text-blue-400 transition-colors" 
+              <img 
+                src="/lovable-uploads/1fafdfff-e5a9-4eec-8d26-d69e1b5c572b.png" 
+                alt="Telegram" 
+                className="hover:opacity-80 transition-opacity" 
+                style={{ width: '44.69px', height: '44.69px' }}
+                loading="lazy"
               />
             </a>
             <a href="https://linkedin.com/in/dperhar-discovery/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <Linkedin 
-                size={24} 
-                className="text-white hover:text-blue-400 transition-colors" 
+              <img 
+                src="/lovable-uploads/cd2e400b-10af-440e-9c60-41d90ff37414.png" 
+                alt="LinkedIn" 
+                className="hover:opacity-80 transition-opacity" 
+                style={{ width: '89.37px', height: '89.37px' }}
+                loading="lazy"
               />
             </a>
           </div>
@@ -27,13 +32,13 @@ export const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center min-h-[60vh] lg:min-h-[70vh]">
           <div className="flex flex-col items-start space-y-4 lg:space-y-6 text-left order-2 lg:order-1">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase leading-tight">
-              Когда рост уперся в хаос
+              Когда твой бизнес растет медленнее, чем твои амбиции?
             </h1>
             <p className="text-lg lg:text-xl text-gray-300 max-w-xl">
-              Для фаундеров, которые готовы превратить операционку из тормоза в главный двигатель бизнеса.
+              Для основателей, которые готовы перестать бороться со своим бизнесом и снова сделать его своим главным союзником.
             </p>
             <a href="#schedule" className="bg-[#4A44F2] text-white font-bold py-3 lg:py-4 px-6 lg:px-8 rounded-lg text-lg lg:text-xl uppercase hover:bg-blue-800 transition-colors mt-2 lg:mt-4">
-              Найти рычаг роста
+              Вернуть фокус
             </a>
           </div>
           <div className="flex justify-center lg:justify-end order-1 lg:order-2">

@@ -18,7 +18,7 @@ export const ServicesSection: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left Column */}
         <div className="flex flex-col items-center lg:items-start text-left">
-          <h2 className="text-4xl font-bold mb-8 uppercase text-center lg:text-left">Почему я, а не очередной консультант</h2>
+          <h2 className="text-4xl font-bold mb-8 uppercase text-center lg:text-left">Почему я, а не очередной "эксперт"</h2>
           <img 
             src="/lovable-uploads/09c17969-af5d-478c-a330-05834a69a255.png" 
             alt="Денис Дворянкин" 
@@ -28,42 +28,42 @@ export const ServicesSection: React.FC = () => {
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
-              <span><strong>360° Диагностика:</strong> Я был сейлзом, продактом и CS. В топ банках страны, международных стартапах и среднем бизнесе, лидирующем в своем сегменте. Я видел бизнес со всех сторон и быстро нахожу корневую проблему, а не лечу симптомы, которые вам и так очевидны.</span>
+              <span><strong>Системный взгляд, а не советы с дивана:</strong> Я руководил командами, был сейлзом, продактом и CS в топ-банках и глобальных стартапах. Я не буду учить тебя продавать. Я вскрою твой системный конфликт и спроектирую решение.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
-              <span><strong>Опыт из окопов:</strong> Мои решения – не из курсов скиллбокс. Они основаны на шрамах, полученных в реальных компаниях, где я отвечал за P&L многомиллионных проектов.</span>
+              <span><strong>Шрамы, а не дипломы MBA:</strong> Мои решения – не из книжек и курсов скиллбокс. Они основаны на шрамах, полученных в реальных компаниях, где я отвечал за P&L. Я знаю, как пахнет сгоревший кэш. И как пахнут деньги, заработанные работающей системой.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
-              <span><strong>Архитектура и AI:</strong> Я не просто говорю "что делать". Я проектирую операционную систему и помогаю внедрить AI-инструменты, которые реально приносят деньги.</span>
+              <span><strong>Партнер-хирург, а не "удобный" консультант:</strong> Я не ищу работу. Я ищу проблему, достойную моего внимания. Я буду задавать вопросы, от которых тебе станет неудобно. Моя цель – не понравиться тебе, а помочь твоему бизнесу реализовать свой истинный потенциал.</span>
             </li>
           </ul>
         </div>
 
         {/* Right Column */}
         <div className="bg-[#4A44F2] p-8 rounded-2xl h-full text-left">
-          <h2 className="text-4xl font-bold mb-8 uppercase">Что мы сделаем вместе</h2>
+          <h2 className="text-4xl font-bold mb-8 uppercase">Что мы построим вместе</h2>
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Построим систему, которая генерирует деньги, а не хаос.</span>
+              <span>Операционную систему, которая работает без твоего круглосуточного надзора.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Найдем тот самый рычаг, где 1 рубль усилий дает 10 рублей результата.</span>
+              <span>Точку приложения силы, где 10% усилий дают 90% результата.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Превратим твою интуицию в четкий план с цифрами и ответственными.</span>
+              <span>Команду, которая мыслит результатом, а не тасками в Jira.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Соберем из твоей команды автономный спецназ, а не кружок по интересам.</span>
+              <span>Твою свободу. Возможность снова заниматься тем, ради чего ты все это начинал.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span>Вернем тебе время и энергию, чтобы ты снова кайфовал от своего бизнеса, а не был его рабом.</span>
+              <span>Жестокую, но необходимую ясность. Фундамент для принятия сильных и честных решений.</span>
             </li>
           </ul>
         </div>

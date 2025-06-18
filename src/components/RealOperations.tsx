@@ -24,7 +24,7 @@ export const RealOperations: React.FC = () => {
     <section className="w-full bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-4xl font-bold mb-12 uppercase">
-          Где я уже взламывал систему
+          Где я уже помогал системе работать
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cases.map((caseItem, index) => (
