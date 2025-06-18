@@ -1,4 +1,5 @@
 import React from 'react';
+import { Send, Linkedin } from 'lucide-react';
 
 const ShieldIcon = () => (
   <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
@@ -42,6 +43,29 @@ export const ContactSection: React.FC = () => {
               Напиши, что за бизнес, и основную проблему в 3-5 словах
             </p>
           </div>
+        </div>
+      </div>
+      
+      <div className="mt-16 pt-8 border-t border-gray-800">
+        <div className="flex justify-center items-center space-x-6">
+          <a 
+            href="https://t.me/deperhar" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors"
+            aria-label="Telegram"
+          >
+            <Send size={24} />
+          </a>
+          <a 
+            href="https://linkedin.com/in/dperhar-discovery/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors"
+            aria-label="LinkedIn"
+          >
+            <Linkedin size={24} />
+          </a>
         </div>
       </div>
     </section>
