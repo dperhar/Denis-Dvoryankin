@@ -15,17 +15,17 @@ const ArrowIcon = () => (
 export const ServicesSection: React.FC = () => {
   return (
     <section className="w-full bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+      <div className="max-w-7xl mx-auto">
         {/* Left Column */}
-        <div className="flex flex-col items-center lg:items-start text-left">
-          <h2 className="text-4xl font-bold mb-8 uppercase text-center lg:text-left">ПОЧЕМУ Я, А НЕ ОЧЕРЕДНОЙ "ЭКСПЕРТ"</h2>
+        <div className="flex flex-col items-center text-center mb-16">
+          <h2 className="text-4xl font-bold mb-8 uppercase">ПОЧЕМУ Я, А НЕ ОЧЕРЕДНОЙ "ЭКСПЕРТ"</h2>
           <img 
             src="/lovable-uploads/09c17969-af5d-478c-a330-05834a69a255.png" 
             alt="Денис Дворянкин" 
             className="rounded-2xl mb-8 w-full max-w-md object-cover shadow-lg" 
             loading="lazy"
           />
-          <ul className="space-y-4">
+          <ul className="space-y-4 text-left max-w-4xl">
             <li className="flex items-start">
               <span className="mr-4 mt-1"><CheckIcon /></span>
               <span><strong>Системный взгляд, а не советы с дивана:</strong> Я не буду учить твоих профи, как нужно работать. Я <strong>просканирую твою систему</strong> и покажу, где <strong>реальная причина</strong> пробуксовки – в конфликте отделов, в сломанном процессе или в твоем собственном «слепом пятне».</span>
@@ -46,9 +46,9 @@ export const ServicesSection: React.FC = () => {
         </div>
 
         {/* Right Column */}
-        <div className="bg-[#4A44F2] p-8 md:p-12 rounded-2xl text-left h-full">
+        <div className="bg-[#4A44F2] p-8 md:p-12 rounded-2xl text-center">
           <h3 className="text-3xl md:text-4xl font-bold mb-8 uppercase">ЧТО МЫ ПОСТРОИМ ВМЕСТЕ</h3>
-          <ul className="space-y-4">
+          <ul className="space-y-4 text-left max-w-3xl mx-auto">
             <li className="flex items-start">
               <span className="mr-4 mt-1"><ArrowIcon /></span>
               <span>Операционную систему, которая работает без твоего круглосуточного надзора.</span>

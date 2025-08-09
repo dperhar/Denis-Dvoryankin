@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
               КОГДА ТВОЙ БИЗНЕС РАСТЁТ МЕДЛЕННЕЕ ТВОИХ АМБИЦИЙ
             </h1>
             <p className="text-lg lg:text-xl text-gray-300 max-w-xl">
-              ChatGPT проанализирует то, что вы ему скажете. 
+              ChatGPT проанализирует то, что вы ему скажете.<br/>
               Я увижу то, о чём вы молчите — системные конфликты, из‑за которых рост буксует.
             </p>
             <a href="#schedule" className="bg-[#4A44F2] text-white font-bold py-3 lg:py-4 px-6 lg:px-8 rounded-lg text-lg lg:text-xl uppercase hover:bg-blue-800 transition-colors mt-2 lg:mt-4">

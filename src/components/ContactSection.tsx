@@ -19,7 +19,8 @@ export const ContactSection: React.FC = () => {
         <h2 className="text-4xl font-bold mb-8 uppercase">ДВУХЭТАПНАЯ СТРАТЕГИЧЕСКАЯ ДИАГНОСТИКА (2+2)</h2>
         <div className="bg-[#1E1E1E] p-8 rounded-lg text-left">
           <p className="text-lg text-gray-300 mb-6 max-w-2xl mx-auto text-center">
-            Без поверхностных инсайтов, только глубокий анализ. Как устроена диагностика (2+2):
+            Без поверхностных инсайтов, только глубокий анализ.<br/>
+            Как устроена диагностика (2+2):
           </p>
           <ul className="space-y-4 max-w-2xl mx-auto">
             <li className="flex items-start">
