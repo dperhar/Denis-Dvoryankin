@@ -15,7 +15,7 @@ const ArrowIcon = () => (
 export const ServicesSection: React.FC = () => {
   return (
     <section className="w-full bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 gap-16 items-start">
         {/* Left Column */}
         <div className="flex flex-col items-center lg:items-start text-left">
           <h2 className="text-4xl font-bold mb-8 uppercase text-center lg:text-left">ПОЧЕМУ Я, А НЕ ОЧЕРЕДНОЙ "ЭКСПЕРТ"</h2>
@@ -45,32 +45,7 @@ export const ServicesSection: React.FC = () => {
           </ul>
         </div>
 
-        {/* Right Column */}
-        <div className="bg-[#4A44F2] p-8 rounded-2xl h-full text-left">
-          <h2 className="text-4xl font-bold mb-8 uppercase">Как устроена диагностика (2+2)</h2>
-          <ul className="space-y-4">
-            <li className="flex items-start">
-              <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span><strong>Сессия‑вскрытие (90–120 мин):</strong> слушаю, задаю вскрывающие вопросы, формулирую предварительную гипотезу и запрос на данные.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span><strong>Асинхронный аудит (2–4 дня):</strong> дозревание и анализ ограниченного набора артефактов (оргструктура, запись созвона по продажам, 2–3 коротких интервью).</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span><strong>Сессия‑презентация (60 мин):</strong> «Карта системного конфликта», выбранный сценарий решения и первые шаги внедрения.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span><strong>Безопасный доступ:</strong> не «неделя в компании», а точечные запросы и 2–3 разговора — быстро, конкретно, не отвлекая от насущных дел.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-4 mt-1"><ArrowIcon /></span>
-              <span><strong>Стоимость:</strong> 120 000 ₽ за весь короткий проект.</span>
-            </li>
-          </ul>
-        </div>
+        
       </div>
 
       {/* What we will build together */}
