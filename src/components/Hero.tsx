@@ -32,10 +32,11 @@ export const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center min-h-[60vh] lg:min-h-[70vh]">
           <div className="flex flex-col items-start space-y-4 lg:space-y-6 text-left order-2 lg:order-1">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase leading-tight">
-              КОГДА ТВОЙ БИЗНЕС РАСТЁТ МЕДЛЕННЕЕ ВАШИХ АМБИЦИЙ
+              КОГДА ТВОЙ БИЗНЕС РАСТЁТ МЕДЛЕННЕЕ ТВОИХ АМБИЦИЙ
             </h1>
             <p className="text-lg lg:text-xl text-gray-300 max-w-xl">
-              ChatGPT проанализирует то, что вы ему скажете. Я увижу то, о чём вы молчите — системные конфликты, из‑за которых рост буксует.
+              ChatGPT проанализирует то, что вы ему скажете. 
+              Я увижу то, о чём вы молчите — системные конфликты, из‑за которых рост буксует.
             </p>
             <a href="#schedule" className="bg-[#4A44F2] text-white font-bold py-3 lg:py-4 px-6 lg:px-8 rounded-lg text-lg lg:text-xl uppercase hover:bg-blue-800 transition-colors mt-2 lg:mt-4">
               Запросить диагностику
