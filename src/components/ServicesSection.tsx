@@ -15,7 +15,7 @@ const ArrowIcon = () => (
 export const ServicesSection: React.FC = () => {
   return (
     <section className="w-full bg-black text-white py-20 px-4 sm:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 gap-16 items-start">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left Column */}
         <div className="flex flex-col items-center lg:items-start text-left">
           <h2 className="text-4xl font-bold mb-8 uppercase text-center lg:text-left">ПОЧЕМУ Я, А НЕ ОЧЕРЕДНОЙ "ЭКСПЕРТ"</h2>
@@ -45,12 +45,8 @@ export const ServicesSection: React.FC = () => {
           </ul>
         </div>
 
-        
-      </div>
-
-      {/* What we will build together */}
-      <div className="max-w-7xl mx-auto mt-16">
-        <div className="bg-[#4A44F2] p-8 md:p-12 rounded-2xl text-left">
+        {/* Right Column */}
+        <div className="bg-[#4A44F2] p-8 md:p-12 rounded-2xl text-left h-full">
           <h3 className="text-3xl md:text-4xl font-bold mb-8 uppercase">ЧТО МЫ ПОСТРОИМ ВМЕСТЕ</h3>
           <ul className="space-y-4">
             <li className="flex items-start">
