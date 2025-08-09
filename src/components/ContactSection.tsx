@@ -48,7 +48,7 @@ export const ContactSection: React.FC = () => {
           <div className="flex justify-center items-center text-left bg-black/50 p-4 rounded-lg mb-8 max-w-lg mx-auto">
             <ShieldIcon />
             <p className="text-gray-300 ml-4">
-              Гарантия адекватности: если по итогам презентации диагноза вы сочтёте, что ценности нет – верну оплату. Беру ограниченно, чтобы сохранять глубину.
+              Гарантия адекватности: если по итогам презентации диагноза вы сочтёте, что ценности нет – верну 50% оплаты. Без вопросов.
             </p>
           </div>
 
