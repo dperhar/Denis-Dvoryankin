@@ -54,7 +54,7 @@ export const ContactSection: React.FC = () => {
 
           <div className="flex flex-col items-center">
             <a 
-              href="https://t.me/deperhar" 
+              href="https://t.me/m/aTrLvXU0ZTli" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-[#4A44F2] text-white font-bold py-4 px-8 rounded-lg text-xl uppercase hover:bg-blue-800 transition-colors mb-4"
